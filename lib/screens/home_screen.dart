@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_iconly/flutter_iconly.dart';
 import 'package:splash/screens/account_screen.dart';
 import 'package:splash/screens/landing_screen.dart';
+import 'package:splash/screens/module/location_screen.dart';
 import 'package:splash/screens/register_screen.dart';
 
 class HomeScreen extends StatefulWidget {
@@ -18,7 +19,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
   static const List<Widget> _widgetOptions = <Widget>[
     LandingScreen(),
-    AccountScreen(),
+    //AccountScreen(),
+    LocationScreen(),
     //AccountScreen(),
     CustomRegisterScreen(),
     ProfileScreen(),
