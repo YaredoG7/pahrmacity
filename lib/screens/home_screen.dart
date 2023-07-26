@@ -19,8 +19,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
   static const List<Widget> _widgetOptions = <Widget>[
     LandingScreen(),
-    //AccountScreen(),
-    LocationScreen(),
+    AccountScreen(),
+    //LocationScreen(),
     //AccountScreen(),
     CustomRegisterScreen(),
     ProfileScreen(),
